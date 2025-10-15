@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   try {
-    res.send({ hi: "there" });
+    res.send({ hi: "there user" });
   } catch (e) {
     console.log(e);
   }

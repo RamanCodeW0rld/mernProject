@@ -20,6 +20,7 @@
     "mongoose": "^8.19.1",
     "passport": "^0.5.3",
     "passport-google-oauth20": "^2.0.0",
+    "sendgrid": "^5.2.3",
     "stripe": "^19.1.0"
   }
 }

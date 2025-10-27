@@ -11,7 +11,7 @@ module.exports = (survey) => {
                 <a href="${config.emailDomain}/api/surveys/thanks">Yes</a>
               </div>
               <div>
-                <a href="${config.emailDomain}/api/surveys/thanks">Yes</a>
+                <a href="${config.emailDomain}/api/surveys/thanks">No</a>
               </div>
            </div>
         </body>

@@ -93,8 +93,8 @@ module.exports = (survey) => {
             <p class="question">${survey.body}</p>
 
             <div class="buttons">
-              <a href="${config.emailDomain}/api/surveys/thanks" class="button yes">Yes</a>
-              <a href="${config.emailDomain}/api/surveys/thanks" class="button no">No</a>
+              <a href="${config.emailDomain}/api/surveys/${survey.id}/yes" class="button yes">Yes</a>
+              <a href="${config.emailDomain}/api/surveys/${survey.id}/no" class="button no">No</a>
             </div>
           </div>
 
